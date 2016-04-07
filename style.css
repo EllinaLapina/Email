@@ -1,0 +1,252 @@
+/* Reset Styles */
+
+body {
+  width:100% !important;
+  min-width: 100%;
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+  margin:0;
+  padding:0;
+  background: #ffffff;
+}
+
+#outlook a {
+  padding:0;
+}
+
+div, p, a, li, td {
+	-webkit-text-size-adjust:none;
+}
+
+img {
+	text-decoration: none;
+	border:none;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+table tr td {
+	border: 0px solid black;
+}
+
+
+
+/* Text Styles */
+
+@font-face {
+font-family: 'Avenir Next Regular';
+src: url('./fonts/avenir-next-regular.eot?#iefix') format('embedded-opentype'), 
+     url('./fonts/avenir-next-regular.woff') format('woff'), 
+     url('./fonts/avenir-next-regular.ttf')  format('truetype'),
+     url('./fonts/avenir-next-regular.svg#svgFontName') format('svg');
+}
+
+@font-face {
+font-family: 'Avenir Next Thin';
+src: url('./fonts/avenir-next-thin.eot?#iefix') format('embedded-opentype'), 
+     url('./fonts/avenir-next-thin.woff') format('woff'), 
+     url('./fonts/avenir-next-thin.ttf')  format('truetype'),
+     url('./fonts/avenir-next-thin.svg#svgFontName') format('svg');
+}
+
+@font-face {
+font-family: 'Avenir Next Italic';
+src: url('./fonts/avenir-next-italic.eot?#iefix') format('embedded-opentype'), 
+     url('./fonts/avenir-next-italic.woff') format('woff'), 
+     url('./fonts/avenir-next-italic.ttf')  format('truetype'),
+     url('./fonts/avenir-next-italic.svg#svgFontName') format('svg');
+}
+
+@font-face {
+font-family: 'Linea';
+src: url('./fonts/linea-basic-10.eot?#iefix') format('embedded-opentype'), 
+     url('./fonts/linea-basic-10.woff') format('woff'), 
+     url('./fonts/linea-basic-10.ttf')  format('truetype'),
+     url('./fonts/linea-basic-10.svg#svgFontName') format('svg');
+}
+
+@media only screen and (max-device-width: 480px) {
+	
+	p {
+	          font-size: 22px !important;
+	          line-height: 44px !important;
+	        }
+	     
+	h1 {
+	          font-size: 28px !important;
+	     }
+	     
+	p[class="time"] {
+			font-size: 12px !important;
+		}
+		
+	
+	 
+}
+
+a {
+	text-decoration:none;
+	color: #FF5A76;
+}
+
+h1 {
+	font-family:'Avenir Next Regular', sans-serif;
+	font-size:18px;
+	padding-top: 10px;
+}
+	
+h2 {
+	font-family:'Avenir Next Regular', sans-serif;
+	font-size:16px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.icon {
+	font-family:'Linea', sans-serif;
+	color: #FF5A76;
+}
+
+h3 {
+	font-family:'Avenir Next Regular', sans-serif;
+	font-size:15px;
+}
+
+h1,h2,h3 {
+	color:#3D434E;
+	font-weight: 300;
+}
+
+p {
+	font-family:'Avenir Next Regular', sans-serif;
+	font-size:16px;
+	color:#858E9D;
+	line-height: 40px;
+	font-weight: 300;
+}
+
+.ferry-title {
+	color: #3D434E;
+	margin-bottom: 10px;
+}
+
+.icon-col {
+	padding-right: 20px;
+}
+
+.ferry-duration {
+	color: #3D434E;
+	font-size: 14px;
+	text-align: right;
+}
+
+.time {
+	color: #808080;
+	font-size: 12px;
+	line-height: 40px;
+}
+
+.time a {
+	color: #808080;
+}
+
+.footer {
+	color: #bbbbbb;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.footer a {
+	color:#0096FF;
+}
+
+/* Element Styles */
+
+.column {
+	text-align: center;
+	width: 72px;
+}
+
+.column-end {
+	text-align: center;
+	width: 72px;
+}
+
+.column-blank {
+	width: 72px;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.ferry-schedule {
+	width: 100%;
+}
+
+.full-width {
+	width: 100%;
+	align-content: center;
+	text-align: center;
+	
+}
+
+
+.content {
+	padding: 40px 40px 40px 40px;
+	width: 600px;
+}
+
+.navbar {
+	padding: 6px 40px 6px 40px;
+	width: 600px;
+}
+
+
+
+.header {
+	padding: 50px 0 0 0;
+}
+
+.btn {
+	margin: 10px 0 10px 0;
+	background-color:#fff;
+	border:1px solid #ff7a7a;
+	border-radius:4px;color:#ff7a7a;
+	display:inline-block;
+	font-family:'Avenir Next Thin', sans-serif;
+	font-size:18px;
+	font-weight:300;
+	line-height:40px;
+	text-align:center;
+	text-decoration:none;
+	width:100%;-webkit-text-size-adjust:none;
+	mso-hide:all;
+}
+
+#schedule {
+	background: #f9f9f9;
+}
+
+.section-highlight {
+	background: #f9f9f9;
+}
+
+.nav-link {
+	text-align: right;
+	font-size: 9px;
+	color: #DFDFDF;
+}
+
+.nav-link a {
+	color: #DFDFDF;
+}
