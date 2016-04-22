@@ -91,7 +91,7 @@ h1,h2,h3 {
 
 p {
 	font-family: sans-serif;
-	font-size:16px;
+	font-size:14px;
 	color:#858E9D;
 	line-height: 20px;
 	font-weight: 300;
@@ -157,21 +157,16 @@ p {
 	background-color:#fff;
 	border:1px solid #808080;
 	border-radius:4px;color:#000;
-	display:inline-block;
+	display:block;
 	font-family:'Avenir Next Thin', sans-serif;
 	font-size:18px;
 	font-weight:300;
 	line-height:40px;
 	text-align:center;
 	text-decoration:none;
-	width:120px;
-	position: absolute;
+	width:50%;
 	-webkit-text-size-adjust:none;
 	mso-hide:all;
-}
-
-.wrapper {
-    text-align: center;
 }
 
 #schedule {
